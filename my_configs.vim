@@ -1,4 +1,4 @@
-" Taglist
+" taglist
 let Tlist_Show_One_File=1
 let Tlist_Exit_OnlyWindow=1
 nmap wm :Tlist<cr>
@@ -24,3 +24,10 @@ nmap fn 1<c-g>
 let g:ctrlp_by_filename=1
 set wildignore+=QQVIP_svn,VipDoc
 nmap <F6> <c-f><c-\>w
+
+" tab move
+nmap <leader>tf :tabnext<cr>
+nmap <leader>tb :tabprevious<cr>
+
+" Ack
+nmap <leader>a :Ack <cword> --ignore=tags<cr>
