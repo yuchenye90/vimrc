@@ -21,4 +21,6 @@ nmap wa :A<cr>
 nmap fn 1<c-g>
 
 " customized ctrlp rule
+let g:ctrlp_by_filename=1
 set wildignore+=QQVIP_svn,VipDoc
+nmap <F6> <c-f><c-\>w
