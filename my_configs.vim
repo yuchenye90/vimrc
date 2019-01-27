@@ -16,3 +16,9 @@ set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 
 " a.vim
 nmap wa :A<cr>
+
+" full name
+nmap fn 1<c-g>
+
+" customized ctrlp rule
+set wildignore+=QQVIP_svn,VipDoc
