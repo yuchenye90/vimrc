@@ -11,6 +11,8 @@ nmap <F10> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q<cr><cr>
 " colorscheme desert 保存后状态栏会自动还原，原因未知
 hi Search ctermbg=LightYellow ctermfg=Red
 hi IncSearch ctermbg=LightBlue ctermfg=Red
+set cursorline
+hi CursorLine cterm=NONE ctermbg=Black
 
 " encoding
 set encoding=utf-8
