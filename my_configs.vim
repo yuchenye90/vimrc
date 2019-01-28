@@ -9,6 +9,8 @@ nmap <F10> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q<cr><cr>
 
 " color
 " colorscheme desert 保存后状态栏会自动还原，原因未知
+hi Search ctermbg=LightYellow ctermfg=Red
+hi IncSearch ctermbg=LightBlue ctermfg=Red
 
 " encoding
 set encoding=utf-8
@@ -30,4 +32,5 @@ nmap <leader>tf :tabnext<cr>
 nmap <leader>tb :tabprevious<cr>
 
 " Ack
-nmap <leader>a :Ack <cword> --ignore=tags<cr>
+nmap <leader>aa :Ack -i <cword> --ignore=tags<cr>
+
