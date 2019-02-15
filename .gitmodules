@@ -4,3 +4,6 @@
 [submodule "my_plugins/taglist.vim"]
 	path = my_plugins/taglist.vim
 	url = https://github.com/vim-scripts/taglist.vim.git
+[submodule "my_plugins/DoxygenToolkit.vim"]
+	path = my_plugins/DoxygenToolkit.vim
+	url = https://github.com/vim-scripts/DoxygenToolkit.vim.git

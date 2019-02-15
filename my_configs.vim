@@ -36,3 +36,5 @@ nmap <leader>tb :tabprevious<cr>
 " Ack
 nmap <leader>aa :Ack -i <cword> --ignore=tags<cr>
 
+" quickfix
+nmap <leader>cx :cclose<cr>
