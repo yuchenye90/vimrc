@@ -38,3 +38,6 @@ nmap <leader>aa :Ack -i <cword> --ignore=tags<cr>
 
 " quickfix
 nmap <leader>cx :cclose<cr>
+
+" switchbuf
+set switchbuf-=newtab
