@@ -7,3 +7,6 @@
 [submodule "my_plugins/DoxygenToolkit.vim"]
 	path = my_plugins/DoxygenToolkit.vim
 	url = https://github.com/vim-scripts/DoxygenToolkit.vim.git
+[submodule "my_plugins/indentLine.vim"]
+	path = my_plugins/indentLine.vim
+	url = https://github.com/Yggdroot/indentLine.git

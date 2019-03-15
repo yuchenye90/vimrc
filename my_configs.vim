@@ -41,3 +41,11 @@ nmap <leader>cx :cclose<cr>
 
 " switchbuf
 set switchbuf-=newtab
+
+" fold
+set foldmethod=syntax
+set foldnestmax=10
+set foldlevel=10
+set foldcolumn=0
+
+
