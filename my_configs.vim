@@ -1,3 +1,6 @@
+" replace <esc>
+inoremap jj <esc>
+
 " taglist
 let Tlist_Show_One_File=1
 let Tlist_Exit_OnlyWindow=1
@@ -6,9 +9,15 @@ nmap wm :Tlist<cr>
 " tags
 set tags=tags;
 nmap <F10> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q<cr><cr>
+nnoremap go g]
 
 " color
 " colorscheme desert 保存后状态栏会自动还原，原因未知
+" macvim 使用solarized主题
+if v:version > 800
+    colorscheme solarized
+endif
+
 hi Search ctermbg=LightBlue ctermfg=Red
 hi IncSearch ctermbg=LightYellow ctermfg=Red
 set cursorline
@@ -48,4 +57,6 @@ set foldnestmax=10
 set foldlevel=10
 set foldcolumn=0
 
+" indentLine
+" 当前 vim 不支持conceal，不支持，可以使用macvim
 
