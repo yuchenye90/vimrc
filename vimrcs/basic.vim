@@ -208,7 +208,7 @@ vnoremap <silent> # :<C-u>call VisualSelection('', '')<CR>?<C-R>=@/<CR><CR>
 " map <c-space> ?
 
 " Disable highlight when <leader><cr> is pressed
-map <silent> <leader><cr> :noh<cr>
+map <silent> <leader>, :noh<cr>
 
 " Smart way to move between windows
 map <C-j> <C-W>j

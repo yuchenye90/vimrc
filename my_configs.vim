@@ -14,9 +14,9 @@ nnoremap go g]
 " color
 " colorscheme desert 保存后状态栏会自动还原，原因未知
 " macvim 使用solarized主题
-if v:version > 800
-    colorscheme solarized
-endif
+" if v:version > 800
+"    colorscheme solarized
+" endif
 
 hi Search ctermbg=LightBlue ctermfg=Red
 hi IncSearch ctermbg=LightYellow ctermfg=Red
