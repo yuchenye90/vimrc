@@ -1,5 +1,6 @@
 " replace <esc>
-inoremap jj <esc>
+inoremap jk <esc>
+inoremap df <esc>
 
 " taglist
 let Tlist_Show_One_File=1
@@ -47,6 +48,7 @@ nmap <leader>aa :Ack -i <cword> --ignore=tags<cr>
 
 " quickfix
 nmap <leader>cx :cclose<cr>
+nmap <leader>co :copen<cr>
 
 " switchbuf
 set switchbuf-=newtab
@@ -58,5 +60,8 @@ set foldlevel=10
 set foldcolumn=0
 
 " indentLine
-" 当前 vim 不支持conceal，不支持，可以使用macvim
+let g:indentLine_enabled=1
+
+" find in all buffer
+nmap <leader>bf :bufdo vimgrepadd <cword> % 
 
