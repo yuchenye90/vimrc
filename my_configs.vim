@@ -1,6 +1,6 @@
 " replace <esc>
-inoremap jk <esc>
-inoremap df <esc>
+" inoremap jk <esc>
+" inoremap df <esc>
 
 " taglist
 let Tlist_Show_One_File=1
@@ -65,3 +65,5 @@ let g:indentLine_enabled=1
 " find in all buffer
 nmap <leader>bf :bufdo vimgrepadd <cword> % 
 
+" NERDTree
+let NERDTreeShowBookmarks=1
